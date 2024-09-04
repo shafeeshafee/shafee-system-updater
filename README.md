@@ -5,7 +5,7 @@ This is my personal updater script automates system maintenance tasks for macOS,
 - Checking disk space usage
 - Updating macOS software
 - Managing Homebrew packages and casks
-- Checking battery health (for MacBook users)
+- Checking battery health
 - Clearing clipboard history
 
 ## Usage
@@ -85,7 +85,7 @@ For automating this script at regular intervals, use `launchd`, which is macOS's
 
 ### Using `cron` (Alternative)
 
-Although `launchd` is the recommended option for macOS, you can also use `cron` to schedule the script.
+Although `launchd` is the recommended option for macOS, feel free to use `cron` to schedule the script.
 
 1. Open your `cron` editor:
    ```bash
