@@ -98,6 +98,34 @@ Although `launchd` is the recommended option for macOS, you can also use `cron` 
 
 Replace `/path/to/your/update_system.sh` with the full path to your script.
 
+## (Optional) Create an alias for it
+
+If you don't want to automate it and use it as a one-off type command, you can do so simply by adding it to your shell configuration file, e.g., `.zshrc`.
+
+1. Make the script executable:
+   ```bash
+   chmod +x ~/path/to/your/update_system.sh
+   ```
+
+2. Open your shell configuration file:
+   ```bash
+   nano ~/.zshrc
+   ```
+
+3. Add the alias, for example `updatesys`:
+   ```bash
+   alias updatesys='~/path/to/your/update_system.sh'
+   ```
+
+4. Save and exit the file.
+
+5. Reload your shell configuration to apply the changes:
+   ```bash
+   source ~/.zshrc
+   ```
+
+Now you can run the script anytime by simply typing `updatesys` in the terminal.
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
