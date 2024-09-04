@@ -100,7 +100,7 @@ Replace `/path/to/your/update_system.sh` with the full path to your script.
 
 ## (Optional) Create an alias for it
 
-If you don't want to automate it and use it as a one-off type command, you can do so simply by adding it to your shell configuration file, e.g., `.zshrc`.
+If you don't want to automate it and use it as a one-off type command wherever you are in your terminal, you can do so simply by adding it to your shell configuration file, e.g., `.zshrc`.
 
 1. Make the script executable:
    ```bash
